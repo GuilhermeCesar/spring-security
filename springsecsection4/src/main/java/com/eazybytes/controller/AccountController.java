@@ -1,15 +1,15 @@
-package com.easybytes.springsecsection4.controller;
+package com.eazybytes.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class BalanceController {
+public class AccountController {
 
 
 
-    @GetMapping("/myBalance")
-    public String getbalanceDetails() {
+    @GetMapping("/myAccount")
+    public String getAccountDetails() {
         return "Here are the balance details from the DB";
     }
 }
